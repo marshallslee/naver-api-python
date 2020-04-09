@@ -23,5 +23,6 @@ def get_latitude_and_longitude_by_address():
         print("Latitude: {}, Longitude: {}".format(latitude, longitude))
 
     except Exception as e:
+        print(type(e))
         print("An exception occurred:", str(e))
         pass
